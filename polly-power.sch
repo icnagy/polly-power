@@ -47,7 +47,6 @@ Text Label 10550 1600 0    60   ~ 0
 13(SCK)
 Text Label 10550 1400 0    60   ~ 0
 AREF
-NoConn ~ 9400 1600
 Text Label 10550 1300 0    60   ~ 0
 A4(SDA)
 Text Label 10550 1200 0    60   ~ 0
@@ -511,23 +510,23 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 6122C519
-P 4850 3350
-F 0 "U?" H 4800 3350 50  0000 C CNN
-F 1 "TL072" H 4900 3550 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4850 3350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4850 3350 50  0001 C CNN
-	1    4850 3350
+P 3850 3600
+F 0 "U?" H 3800 3600 50  0000 C CNN
+F 1 "TL072" H 3900 3800 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 3850 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3850 3600 50  0001 C CNN
+	1    3850 3600
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
 U 2 1 6122DBD6
-P 4850 4750
-F 0 "U?" H 4800 4750 50  0000 C CNN
-F 1 "TL072" H 4900 4950 50  0000 C CNN
-F 2 "" H 4850 4750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4850 4750 50  0001 C CNN
-	2    4850 4750
+P 3850 5000
+F 0 "U?" H 3800 5000 50  0000 C CNN
+F 1 "TL072" H 3900 5200 50  0000 C CNN
+F 2 "" H 3850 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3850 5000 50  0001 C CNN
+	2    3850 5000
 	1    0    0    1   
 $EndComp
 $Comp
@@ -571,27 +570,27 @@ Text Label 9700 4700 0    50   ~ 0
 DAC_OUT_A
 Text Label 9700 5100 0    50   ~ 0
 DAC_OUT_B
-Text Label 4050 3250 2    50   ~ 0
+Text Label 3050 3500 2    50   ~ 0
 DAC_OUT_A
-Text Label 4050 3450 2    50   ~ 0
+Text Label 3050 3700 2    50   ~ 0
 DAC_OUT_B
 Wire Wire Line
-	4500 4650 4550 4650
+	3500 4900 3550 4900
 $Comp
 L power:GNDA #PWR?
 U 1 1 6123D2CD
-P 4500 4900
-F 0 "#PWR?" H 4500 4650 50  0001 C CNN
-F 1 "GNDA" H 4550 4700 50  0000 C CNN
-F 2 "" H 4500 4900 50  0001 C CNN
-F 3 "" H 4500 4900 50  0001 C CNN
-	1    4500 4900
+P 3500 5150
+F 0 "#PWR?" H 3500 4900 50  0001 C CNN
+F 1 "GNDA" H 3550 4950 50  0000 C CNN
+F 2 "" H 3500 5150 50  0001 C CNN
+F 3 "" H 3500 5150 50  0001 C CNN
+	1    3500 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 4900 4500 4850
+	3500 5150 3500 5100
 Wire Wire Line
-	4500 4850 4550 4850
+	3500 5100 3550 5100
 Text Label 1550 1000 0    50   ~ 0
 5V_DAC_REF
 Text Label 9200 4350 0    50   ~ 0
@@ -609,94 +608,94 @@ Text Label 8500 4900 2    60   ~ 0
 Text Label 8500 4700 2    60   ~ 0
 11(**/MOSI)
 Wire Wire Line
-	5200 3350 5150 3350
-Text Label 5250 3350 0    50   ~ 0
+	4200 3600 4150 3600
+Text Label 4250 3600 0    50   ~ 0
 CV
 Wire Wire Line
-	5200 4750 5150 4750
+	4200 5000 4150 5000
 $Comp
 L Device:R R?
 U 1 1 61248977
-P 4250 3250
-F 0 "R?" V 4000 3250 50  0000 C CNN
-F 1 "10k" V 4100 3250 50  0000 C CNN
-F 2 "" V 4180 3250 50  0001 C CNN
-F 3 "~" H 4250 3250 50  0001 C CNN
-	1    4250 3250
+P 3250 3500
+F 0 "R?" V 3000 3500 50  0000 C CNN
+F 1 "10k" V 3100 3500 50  0000 C CNN
+F 2 "" V 3180 3500 50  0001 C CNN
+F 3 "~" H 3250 3500 50  0001 C CNN
+	1    3250 3500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61248C8C
-P 4250 3450
-F 0 "R?" V 4400 3450 50  0000 C CNN
-F 1 "10k" V 4500 3450 50  0000 C CNN
-F 2 "" V 4180 3450 50  0001 C CNN
-F 3 "~" H 4250 3450 50  0001 C CNN
-	1    4250 3450
+P 3250 3700
+F 0 "R?" V 3400 3700 50  0000 C CNN
+F 1 "10k" V 3500 3700 50  0000 C CNN
+F 2 "" V 3180 3700 50  0001 C CNN
+F 3 "~" H 3250 3700 50  0001 C CNN
+	1    3250 3700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4400 3450 4550 3450
+	3400 3700 3550 3700
 Wire Wire Line
-	4400 3250 4450 3250
+	3400 3500 3450 3500
 $Comp
 L Device:R R?
 U 1 1 6124BB82
-P 4800 3000
-F 0 "R?" V 4550 3000 50  0000 C CNN
-F 1 "10k" V 4650 3000 50  0000 C CNN
-F 2 "" V 4730 3000 50  0001 C CNN
-F 3 "~" H 4800 3000 50  0001 C CNN
-	1    4800 3000
+P 3800 3300
+F 0 "R?" V 3550 3300 50  0000 C CNN
+F 1 "10k" V 3650 3300 50  0000 C CNN
+F 2 "" V 3730 3300 50  0001 C CNN
+F 3 "~" H 3800 3300 50  0001 C CNN
+	1    3800 3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5200 3350 5200 3000
+	4200 3600 4200 3300
 Wire Wire Line
-	5200 3000 4950 3000
+	4200 3300 3950 3300
 Wire Wire Line
-	4650 3000 4450 3000
+	3650 3300 3450 3300
 Wire Wire Line
-	4450 3000 4450 3250
-Connection ~ 4450 3250
+	3450 3300 3450 3500
+Connection ~ 3450 3500
 Wire Wire Line
-	4450 3250 4550 3250
+	3450 3500 3550 3500
 Wire Wire Line
-	4050 3450 4100 3450
+	3050 3700 3100 3700
 Wire Wire Line
-	4050 3250 4100 3250
+	3050 3500 3100 3500
 Wire Wire Line
-	5250 3350 5200 3350
-Connection ~ 5200 3350
+	4250 3600 4200 3600
+Connection ~ 4200 3600
 $Comp
 L Device:R R?
 U 1 1 61257D46
-P 4800 4400
-F 0 "R?" V 4550 4400 50  0000 C CNN
-F 1 "1k" V 4650 4400 50  0000 C CNN
-F 2 "" V 4730 4400 50  0001 C CNN
-F 3 "~" H 4800 4400 50  0001 C CNN
-	1    4800 4400
+P 3800 4650
+F 0 "R?" V 3550 4650 50  0000 C CNN
+F 1 "1k" V 3650 4650 50  0000 C CNN
+F 2 "" V 3730 4650 50  0001 C CNN
+F 3 "~" H 3800 4650 50  0001 C CNN
+	1    3800 4650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4950 4400 5200 4400
+	3950 4650 4200 4650
 Wire Wire Line
-	5200 4400 5200 4750
+	4200 4650 4200 5000
 Wire Wire Line
-	4500 4650 4500 4400
+	3500 4900 3500 4650
 Wire Wire Line
-	4500 4400 4650 4400
+	3500 4650 3650 4650
 Wire Wire Line
-	4450 4650 4500 4650
-Connection ~ 4500 4650
-Text Label 4450 4650 2    50   ~ 0
+	3450 4900 3500 4900
+Connection ~ 3500 4900
+Text Label 3450 4900 2    50   ~ 0
 AUDIO_OUT_SUM
 Wire Wire Line
-	5200 4750 5250 4750
-Connection ~ 5200 4750
-Text Label 5250 4750 0    50   ~ 0
+	4200 5000 4250 5000
+Connection ~ 4200 5000
+Text Label 4250 5000 0    50   ~ 0
 AUDIO_OUT
 Text Label 6050 1150 0    50   ~ 0
 VOICE_1_SEL
@@ -948,7 +947,7 @@ Gain Adjust
 Text Notes 10150 5100 0    50   ~ 0
 Offset Adjust
 Text Notes 7950 6450 0    50   ~ 0
-Vouta = (Vrefa*Ga)*(Da/2^^n)\nVoutb = (Vrefb*Gb)*(Db/2^^n)\n\nGa,Gb = Gain selection 1x or 2x (1x)\nn = DAC bit resolution (12)\nDa, Db = Digital value of DAC (0-4095)\n\nVouta = [4 * 1 * 0 / 4096 , 4 * 1 * 4095/4096] = [0, 3.9990234375]\nVoutb = [4 * 1 * 0 / 4096 , 4 * 1 * 4095/4096] = [0, 3.9990234375]
+Vouta = (Vrefa*Ga)*(Da/2^^n)\nVoutb = (Vrefb*Gb)*(Db/2^^n)\n=======================\nGa,Gb = Gain selection 1x or 2x (1x)\nn = DAC bit resolution (12)\nDa, Db = Digital value of DAC (0-4095)\n=============================\nVouta = [4 * 1 * 0 / 4096 , 4 * 1 * 4095/4096] = [0, 3.9990234375]\nVoutb = [4 * 1 * 0 / 4096 , 4 * 1 * 4095/4096] = [0, 3.9990234375]
 $Comp
 L power:+12VA #PWR?
 U 1 1 612426D4
@@ -1374,7 +1373,7 @@ $EndComp
 Wire Wire Line
 	6950 3950 6950 3900
 Connection ~ 6950 3900
-Text Notes 4750 4050 0    50   ~ 0
+Text Notes 3750 4300 0    50   ~ 0
 Vin+ = (Voutb*R4 + Vcc-*R3) / (R3 + R4)\nVo = Vin+(1 + R2/R1) - Vouta(R2/R1)\n\nVin+(1 + R2/R1) => Offset adjust\n-Vouta(R2/R1) => Gain adjust
 Wire Notes Line
 	7900 4100 11200 4100
@@ -1451,12 +1450,12 @@ $EndComp
 $Comp
 L Reference_Voltage:LM4040LP-4.1 U?
 U 1 1 612FE033
-P 3800 6300
-F 0 "U?" V 3850 6400 50  0000 L CNN
-F 1 "LM4040LP-4.1" V 3800 6400 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3800 6100 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 3800 6300 50  0001 C CIN
-	1    3800 6300
+P 3350 6300
+F 0 "U?" V 3400 6400 50  0000 L CNN
+F 1 "LM4040LP-4.1" H 3350 6400 50  0000 R CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3350 6100 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 3350 6300 50  0001 C CIN
+	1    3350 6300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1543,50 +1542,50 @@ MCP_VREF
 $Comp
 L power:GNDA #PWR?
 U 1 1 6137C267
-P 3800 6550
-F 0 "#PWR?" H 3800 6300 50  0001 C CNN
-F 1 "GNDA" H 3850 6350 50  0000 C CNN
-F 2 "" H 3800 6550 50  0001 C CNN
-F 3 "" H 3800 6550 50  0001 C CNN
-	1    3800 6550
+P 3350 6550
+F 0 "#PWR?" H 3350 6300 50  0001 C CNN
+F 1 "GNDA" H 3400 6350 50  0000 C CNN
+F 2 "" H 3350 6550 50  0001 C CNN
+F 3 "" H 3350 6550 50  0001 C CNN
+	1    3350 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 6550 3800 6450
+	3350 6550 3350 6450
 $Comp
 L Device:R R?
 U 1 1 61384D1B
-P 3800 5900
-F 0 "R?" H 3900 5950 50  0000 L CNN
-F 1 "500" H 3900 5850 50  0000 L CNN
-F 2 "" V 3730 5900 50  0001 C CNN
-F 3 "~" H 3800 5900 50  0001 C CNN
-	1    3800 5900
+P 3350 5900
+F 0 "R?" H 3450 5950 50  0000 L CNN
+F 1 "500" H 3450 5850 50  0000 L CNN
+F 2 "" V 3280 5900 50  0001 C CNN
+F 3 "~" H 3350 5900 50  0001 C CNN
+	1    3350 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5VA #PWR?
 U 1 1 613854EC
-P 3800 5700
-F 0 "#PWR?" H 3800 5550 50  0001 C CNN
-F 1 "+5VA" H 3850 5900 50  0000 C CNN
-F 2 "" H 3800 5700 50  0001 C CNN
-F 3 "" H 3800 5700 50  0001 C CNN
-	1    3800 5700
+P 3350 5700
+F 0 "#PWR?" H 3350 5550 50  0001 C CNN
+F 1 "+5VA" H 3400 5900 50  0000 C CNN
+F 2 "" H 3350 5700 50  0001 C CNN
+F 3 "" H 3350 5700 50  0001 C CNN
+	1    3350 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 5700 3800 5750
+	3350 5700 3350 5750
 Wire Wire Line
-	3800 6050 3800 6100
-Text Label 3900 6100 0    50   ~ 0
+	3350 6050 3350 6100
+Text Label 3450 6100 0    50   ~ 0
 LM_VREF
 Wire Wire Line
-	3900 6100 3800 6100
-Connection ~ 3800 6100
+	3450 6100 3350 6100
+Connection ~ 3350 6100
 Wire Wire Line
-	3800 6100 3800 6150
-Text Notes 3900 7750 0    50   ~ 0
+	3350 6100 3350 6150
+Text Notes 3450 7750 0    50   ~ 0
 VIN > VOUT, Select RS such that:\nIRmin < IR < IRmax where IRmax = 15 mA\n\nThe resistor RS must be selected such that current IR will remain \nin the operational region of the part for the entire VIN range and load \ncurrent range. The two extremes to consider are VIN at its minimum, \nand the load at its maximum, where RS must be small enough for IR to\nremain above IRmin. The other extreme is VIN at its maximum, and the\nload at its minimum, where RS must be large enough to maintain IR < IRmax.\nFor most designs, 0.1 mA ≤ IR ≤ 1 mA is a good starting point.\nUse Equation 2 and Equation 3 to set RS between RS_MIN and RS_MAX.\n(2) Rs_min = (Vin_max - Vout) / (Iload_min + Ir_max)\n(3) Rs_max = (Vin_min - Vout) / (Iload_max + Ir_min)\n\nUsing an LM4040-4.1, select an appropriate RS to sufficiently power the\ndevice. Set the target IR for 1 mA. With an input voltage of 5 V, the resistor\ncan be calculated:\nR = (5 V - 4.096 V) / 1mA = 904 Ω\nThe closest available resistance of 909 Ω is used here, which in turn yields\nan IR of 994 μA.
 Text Label 10200 5600 2    50   ~ 0
 LM_VREF
@@ -1631,11 +1630,11 @@ Wire Notes Line
 Wire Notes Line
 	3100 5450 3100 7750
 Wire Notes Line
-	6950 5450 6950 7750
+	6550 5450 6550 7750
 Wire Notes Line
-	500  5450 6950 5450
+	500  5450 6550 5450
 Wire Notes Line
-	500  7750 6950 7750
+	500  7750 6550 7750
 Text Notes 550  7700 0    50   ~ 0
 Voltage References for DAC
 Text Notes 7950 4200 0    50   ~ 0
@@ -1693,4 +1692,8 @@ Wire Wire Line
 	6050 2150 6050 2100
 Wire Wire Line
 	6050 2400 6050 2350
+Text Label 9400 1300 0    50   ~ 0
+-6.5V
+Wire Wire Line
+	9400 1600 9400 1300
 $EndSCHEMATC
