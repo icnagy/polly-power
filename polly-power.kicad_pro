@@ -420,6 +420,18 @@
     [
       "f5fdbe12-8908-4b4e-99cf-dfba67105b79",
       ""
+    ],
+    [
+      "c8012b25-13f3-4edd-aa58-a4260dd87347",
+      "Power"
+    ],
+    [
+      "32538d0c-c68e-4451-903b-76f2a9f6e42d",
+      "Digital"
+    ],
+    [
+      "8513e669-55d6-4494-9b8d-92be366e9b6a",
+      "DAC and output"
     ]
   ],
   "text_variables": {}
